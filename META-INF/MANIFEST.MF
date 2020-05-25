@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DirectoryExplorer
+Bundle-SymbolicName: DirectoryExplorer;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.rcpapp.directoryexplorer.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: DirectoryExplorer
+Import-Package: javax.inject
+Bundle-ActivationPolicy: lazy
